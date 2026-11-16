@@ -1,0 +1,32 @@
+# Secrets / environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# Docker / local data
+postgres_data/
+.docker-config/
+
+# ML model artifacts (trained binaries)
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

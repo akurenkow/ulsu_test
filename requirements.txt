@@ -1,0 +1,7 @@
+# Зависимости ETL-пайплайна (этап 2). Версии зафиксированы (пины).
+numpy==1.26.4
+pandas==2.2.3
+SQLAlchemy==2.0.36
+psycopg[binary]==3.2.3
+python-dotenv==1.0.1
+structlog==24.4.0
